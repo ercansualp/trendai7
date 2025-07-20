@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "api:generate": "orval",
+    "api:watch": "orval --watch"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
+    "@nuxtjs/i18n": "^9.5.6",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@tanstack/vue-query": "^5.80.6",
+    "@tiptap/extension-color": "^3.0.1",
+    "@tiptap/extension-highlight": "^3.0.1",
+    "@tiptap/extension-link": "^3.0.1",
+    "@tiptap/extension-placeholder": "^3.0.1",
+    "@tiptap/extension-text-align": "^3.0.1",
+    "@tiptap/extension-text-style": "^3.0.1",
+    "@tiptap/extension-underline": "^3.0.1",
+    "@tiptap/starter-kit": "^3.0.1",
+    "@tiptap/vue-3": "^3.0.1",
+    "axios": "^1.10.0",
+    "jose": "^6.0.11",
+    "notivue": "^2.4.5",
+    "nuxt": "^3.12.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "orval": "^7.10.0"
+  }
+}
